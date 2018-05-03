@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InAppBrowser.addEventListener Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+         var ref = window.open('https://lijinling.github.io/?lan=en', '_blank', 'location=no,toolbar=no');
+         //ref.addEventListener('loaderror', function(event) { alert('error: ' + event.message); });
+    }
+
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

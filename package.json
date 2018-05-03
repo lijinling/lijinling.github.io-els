@@ -1,0 +1,20 @@
+{
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "displayName": "helloworld",
+  "cordova": {
+    "platforms": [
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-admobpro": {},
+      "cordova-plugin-inappbrowser": {}
+    }
+  },
+  "dependencies": {
+    "cordova-ios": "4.5.4",
+    "cordova-plugin-admobpro": "^2.31.5",
+    "cordova-plugin-extension": "^1.5.4",
+    "cordova-plugin-inappbrowser": "~3.0.0"
+  }
+}
